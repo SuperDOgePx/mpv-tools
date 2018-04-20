@@ -3,7 +3,7 @@
  *
  * Description: Advanced, modular media browser, file manager and playlist
  *              manager for mpv.
- * Version:     1.3.0
+ * Version:     1.3.1
  * Author:      SteveJobzniak
  * URL:         https://github.com/SteveJobzniak/mpv-tools
  * License:     Apache License, Version 2.0
@@ -57,6 +57,7 @@ var Blackbox = function(options)
             'cores':1,
             'net':1,
             'private':1,
+            'vm':1,
             'Library':1, // System data and preference library (useless).
             'System':1 // Operating system (useless).
         }
